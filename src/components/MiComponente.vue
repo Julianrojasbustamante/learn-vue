@@ -2,8 +2,8 @@
   <div>
     <h1>{{ text }}</h1>
     <h2>Los productos son:</h2>
-    <div v-for="product in productos">
-      <p>{{product.nombre}}</p>
+    <div v-for="producto in productos">
+      <p>{{producto.nombre}} = ${{producto.precio}}</p>
     </div>
   </div>
 </template>
